@@ -46,37 +46,17 @@
 <!--               ABOUT ME SECTION                        -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🧠 About Me
+## About Me
 
-```python
-class VijayakumarS:
-    """AI / ML Engineer — Chennai, India"""
+I'm an AI Engineer passionate about building intelligent systems that can understand language, process information, and solve real-world problems at scale.
 
-    role        = "AI Engineer | ML Engineer | Deep Learning Engineer"
-    location    = "Chennai, India 🇮🇳"
-    email       = "vijay.aieng@gmail.com"
-    linkedin    = "linkedin.com/in/vijay-aieng"
-    github      = "github.com/VijayAIeng"
+My primary interests lie in Machine Learning, Deep Learning, Large Language Models (LLMs), AI Agents, Retrieval-Augmented Generation (RAG), Natural Language Processing, and MLOps. I enjoy exploring how modern AI systems are designed, trained, deployed, and optimized for production environments.
 
-    specializations = [
-        "🎙️  Speech AI    → TTS, ASR, Voice Cloning, Prosody Modeling",
-        "🤖  LLM Systems  → Fine-tuning, RAG, Agentic AI, Prompt Engineering",
-        "👁️  Vision AI    → Object Detection, VLMs, Image Segmentation",
-        "⚙️  MLOps        → Model Serving, Containerization, Cloud Deployment",
-    ]
+Currently, I'm focused on advancing my expertise in agentic AI, distributed training, LLM infrastructure, and scalable machine learning systems. I believe that strong fundamentals, continuous learning, and hands-on experimentation are essential for building reliable AI products.
 
-    currently_learning = [
-        "Advanced Multi-Agent Systems (LangGraph, CrewAI)",
-        "Distributed Training (FSDP, DeepSpeed)",
-        "Production LLM Infrastructure (vLLM, TGI)",
-        "AI Safety & Alignment Research",
-    ]
+I actively work on projects involving LLM applications, AI agents, NLP systems, computer vision, and production-ready ML workflows while contributing to open-source technologies and expanding my understanding of modern AI architectures.
 
-    goal = "Build production-scale AI products used by millions 🚀"
-
-    def greet(self):
-        return "Hi! I build intelligent systems that understand, speak & reason."
-```
+My long-term goal is to build impactful AI products that reach millions of users and bridge the gap between cutting-edge research and real-world applications.
 
 ---
 
