@@ -64,7 +64,7 @@ My long-term goal is to build impactful AI products that reach millions of users
 <!--              AI SPECIALIZATIONS                       -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🚀 AI / ML Specializations
+##  AI / ML Specializations
 
 <div align="center">
 
@@ -85,9 +85,9 @@ My long-term goal is to build impactful AI products that reach millions of users
 <!--               TECH STACK BADGES                       -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 💻 Languages
+###  Languages
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
@@ -97,7 +97,7 @@ My long-term goal is to build impactful AI products that reach millions of users
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
 </p>
 
-### 🤖 AI / ML / DL Frameworks
+###  AI / ML / DL Frameworks
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
@@ -107,7 +107,7 @@ My long-term goal is to build impactful AI products that reach millions of users
   <img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white"/>
 </p>
 
-### 🧬 LLM / GenAI / RAG Ecosystem
+###  LLM / GenAI / RAG Ecosystem
 <p>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/LlamaIndex-7B61FF?style=for-the-badge&logo=llamaindex&logoColor=white"/>
@@ -119,7 +119,7 @@ My long-term goal is to build impactful AI products that reach millions of users
   <img src="https://img.shields.io/badge/Weaviate-14B8A6?style=for-the-badge&logoColor=white"/>
 </p>
 
-### 🎙️ Speech AI
+###  Speech AI
 <p>
   <img src="https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/XTTS--v2-00D9FF?style=for-the-badge&logoColor=white"/>
@@ -129,7 +129,7 @@ My long-term goal is to build impactful AI products that reach millions of users
   <img src="https://img.shields.io/badge/Bark-F59E0B?style=for-the-badge&logoColor=white"/>
 </p>
 
-### 🧪 MLOps & Infrastructure
+###  MLOps & Infrastructure
 <p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
@@ -141,7 +141,7 @@ My long-term goal is to build impactful AI products that reach millions of users
   <img src="https://img.shields.io/badge/vLLM-7B61FF?style=for-the-badge&logoColor=white"/>
 </p>
 
-### ☁️ Cloud & Databases
+###  Cloud & Databases
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
   <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
@@ -158,7 +158,7 @@ My long-term goal is to build impactful AI products that reach millions of users
 <!--               FEATURED PROJECTS                       -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🏗️ Featured AI Projects
+##  Featured AI Projects
 
 > Production-grade systems — not demos, not notebooks.
 
@@ -181,7 +181,7 @@ My long-term goal is to build impactful AI products that reach millions of users
 <!--              GITHUB STATISTICS                        -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Statistics
+##  GitHub Statistics
 
 <!-- Customize: replace VijayAIeng with your actual GitHub username in all URLs below -->
 
@@ -204,7 +204,7 @@ My long-term goal is to build impactful AI products that reach millions of users
 <!--              ACTIVITY GRAPH                           -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 📈 Contribution Activity
+##  Contribution Activity
 
 <div align="center">
 
@@ -218,7 +218,7 @@ My long-term goal is to build impactful AI products that reach millions of users
 <!--            OPEN SOURCE REPOS SPOTLIGHT                -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 📦 Open Source Contributions
+##  Open Source Contributions
 
 <div align="center">
 
@@ -236,7 +236,7 @@ My long-term goal is to build impactful AI products that reach millions of users
 <!--              CURRENT LEARNING ROADMAP                 -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🗺️ 2025–2026 Learning Roadmap
+##  2023–2026 Learning Roadmap
 
 ```
 🟢 COMPLETED          🟡 IN PROGRESS          🔵 PLANNED
@@ -279,13 +279,13 @@ ADVANCED
 <!--            WHAT I'M WORKING ON NOW                   -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## ⚡ Currently Working On
+##  Currently Working On
 
 <table>
 <tr>
 <td width="50%">
 
-### 🔨 Building
+###  Building
 - 🎙️ **Real-Time Voice AI Platform** — Full-duplex conversational agent with emotion-aware TTS
 - 🤖 **Multi-Agent Research System** — Autonomous AI agents for literature synthesis
 - 🔍 **Graph-Enhanced RAG** — Knowledge graph + vector hybrid retrieval
@@ -293,7 +293,7 @@ ADVANCED
 </td>
 <td width="50%">
 
-### 📖 Learning
+###  Learning
 - 📚 Distributed Training with **DeepSpeed + FSDP**
 - 🧠 **LLM Mechanistic Interpretability**
 - ⚙️ Production model serving with **vLLM + Triton**
@@ -309,7 +309,7 @@ ADVANCED
 <!--              AI TOOLS I USE DAILY                    -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🧰 Daily AI Engineering Toolkit
+##  Daily AI Engineering Toolkit
 
 <div align="center">
 
@@ -332,7 +332,7 @@ ADVANCED
 <!--              CERTIFICATIONS                          -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🏆 Certifications & Achievements
+##  Certifications & Achievements
 
 <div align="center">
 
@@ -347,7 +347,6 @@ ADVANCED
 
 </div>
 
-> 📌 *Update this section with your actual certifications and their URLs*
 
 ---
 
@@ -355,21 +354,13 @@ ADVANCED
 <!--              GITHUB TROPHIES                         -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 🏅 GitHub Trophies
 
-<div align="center">
-
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=VijayAIeng&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
 
 <!-- ══════════════════════════════════════════════════════ -->
 <!--              CONTACT SECTION                         -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-## 📬 Let's Connect
+##  Let's Connect
 
 <div align="center">
 
@@ -391,7 +382,7 @@ ADVANCED
 <br/><br/>
 
 <!-- Replace YOUR_PORTFOLIO_URL with actual URL once deployed -->
-<a href="https://vijayaieng.github.io">
+<a href="[https://vijayaieng.github.io](https://github.com/VijayAIeng)">
   <img src="https://img.shields.io/badge/Portfolio-vijayaieng.github.io-00D9FF?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
