@@ -1,6 +1,6 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║              VIJAYAKUMAR S — GitHub Profile README                          ║
+║              VIJAYAKUMAR S - GitHub Profile README                          ║
 ║              AI/ML Engineer | Chennai, India                                ║
 ║  Customize: Replace widget usernames, update repo links, swap badge colors  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -160,13 +160,13 @@ My long-term goal is to build impactful AI products that reach millions of users
 
 ##  Featured AI Projects
 
-> Production-grade systems — not demos, not notebooks.
+> Production-grade systems - not demos, not notebooks.
 
 <div align="center">
 
 | # | Project | Description | Tech | Stars |
 |---|---------|-------------|------|-------|
-| 🎙️ | **[DIS-Vector](https://github.com/VijayAIeng)** | Open-source voice intelligence framework — speaker embeddings, verification & voice cloning. **97.3% accuracy** | `PyTorch` `Whisper` `XTTS-v2` `FAISS` | ⭐ |
+| 🎙️ | **[DIS-Vector](https://github.com/VijayAIeng)** | Open-source voice intelligence framework - speaker embeddings, verification & voice cloning. **97.3% accuracy** | `PyTorch` `Whisper` `XTTS-v2` `FAISS` | ⭐ |
 | 🤖 | **[Conversational AI Agent](https://github.com/VijayAIeng)** | Real-time full-duplex voice agent: ASR → LLaMA-3 → Neural TTS. **<500ms latency** over WebSockets | `LLaMA-3` `FastAPI` `WebSockets` `LangGraph` | ⭐ |
 | 👁️ | **[Multimodal Vision RAG](https://github.com/VijayAIeng)** | CLIP + LLaVA multimodal retrieval system with Qdrant. **2.1M vectors** indexed | `CLIP` `LLaVA` `Qdrant` `YOLO` | ⭐ |
 | 🔊 | **[Multilingual TTS Engine](https://github.com/VijayAIeng)** | 12-language production TTS. Custom prosody model. **<200ms** first-token latency | `StyleTTS2` `Bark` `Triton` `ONNX` | ⭐ |
@@ -286,9 +286,9 @@ ADVANCED
 <td width="50%">
 
 ###  Building
-- 🎙️ **Real-Time Voice AI Platform** — Full-duplex conversational agent with emotion-aware TTS
-- 🤖 **Multi-Agent Research System** — Autonomous AI agents for literature synthesis
-- 🔍 **Graph-Enhanced RAG** — Knowledge graph + vector hybrid retrieval
+- 🎙️ **Real-Time Voice AI Platform** - Full-duplex conversational agent with emotion-aware TTS
+- 🤖 **Multi-Agent Research System** - Autonomous AI agents for literature synthesis
+- 🔍 **Graph-Enhanced RAG** - Knowledge graph + vector hybrid retrieval
 
 </td>
 <td width="50%">
@@ -338,7 +338,7 @@ ADVANCED
 
 | Badge | Certification | Provider | Status |
 |-------|---------------|----------|--------|
-| 🤖 | **DeepLearning.AI — LLM Specialization** | Coursera | ✅ Completed |
+| 🤖 | **DeepLearning.AI - LLM Specialization** | Coursera | ✅ Completed |
 | 🔍 | **LangChain for LLM Application Development** | DeepLearning.AI | ✅ Completed |
 | 🧠 | **Hugging Face NLP Course** | Hugging Face | ✅ Completed |
 | ☁️ | **AWS Cloud Practitioner** | Amazon | 🟡 In Progress |
@@ -364,7 +364,7 @@ ADVANCED
 
 <div align="center">
 
-> I'm actively looking for **AI/ML Engineer** roles — full-time or contract. Let's build something impactful together.
+> I'm actively looking for **AI/ML Engineer** roles - full-time or contract. Let's build something impactful together.
 
 <br/>
 
@@ -401,7 +401,7 @@ ADVANCED
 <br/>
 
 ```
-"The best way to predict the future is to build it." — Alan Kay
+"The best way to predict the future is to build it." - Alan Kay
 ```
 
 <br/>
@@ -412,6 +412,6 @@ ADVANCED
 
 <br/>
 
-*⭐ Star my repos if they helped you — it means a lot!*
+*⭐ Star my repos if they helped you - it means a lot!*
 
 </div>
