@@ -19,7 +19,7 @@ AI/ML Engineer with **3.5+ years** of production experience building large langu
 
 Currently deepening my work in distributed training, LLM inference optimization, and production agent orchestration.
 
-> 🟢 **Open to full-time / contract AI-ML Engineer roles.**
+> 🟢 **Open to full-time AI-ML Engineer roles.**
 
 <br/>
 
@@ -31,14 +31,14 @@ Currently deepening my work in distributed training, LLM inference optimization,
 **Tapaya Technologies LLP**, Kerala, India *(Remote)* &nbsp;|&nbsp; Jul 2024 – Present
 
 - 🎙️ Architected a real-time conversational AI pipeline (Whisper + Llama 3 + XTTS-v2) with WebSocket streaming on Kubernetes - **sub-500ms latency**, 30% lower infra cost via GPU batching and quantization
-- 🔍 Built a hybrid RAG platform (BGE-M3 + Weaviate + Neo4j) processing **1M+ enterprise documents** - **+40% retrieval precision**
-- 🔊 Shipped a multilingual TTS engine across 12 languages (**sub-200ms** first-token latency) and a Vision RAG system indexing **2.1M+ vectors** - **+25% user satisfaction**
-- 🤖 Built multi-agent LLM pipelines (LangGraph + CrewAI) with tool calling and long-term memory - **60% less manual workflow time**
+- 🔍 Built a hybrid RAG platform (BGE-M3 + Weaviate + Neo4j) processing **1M+ enterprise documents**  **+40% retrieval precision**
+- 🔊 Shipped a multilingual TTS engine across 12 languages (**sub-200ms** first-token latency) and a Vision RAG system indexing **2.1M+ vectors**  **+25% user satisfaction**
+- 🤖 Built multi-agent LLM pipelines (LangGraph + CrewAI) with tool calling and long-term memory  **60% less manual workflow time**
 - 🧬 Core developer of **Shabdh**, a multilingual zero-shot voice cloning system - presented at LIMMITS'24 and LIMMITS'25
 
 ### Machine Learning Engineer, Intern
 **Tapaya Technologies LLP** &nbsp;|&nbsp; Oct 2023 – Jun 2024
-- Fine-tuned ASR/TTS models on 50+ hours of multilingual data (LoRA/PEFT) - **−18% WER**; built CI/CD + MLflow monitoring
+- Fine-tuned ASR/TTS models on 50+ hours of multilingual data (LoRA/PEFT) - **18% WER**; built CI/CD + MLflow monitoring
 
 ### Data Scientist, Intern
 **Simplilearn**, India *(Hybrid)* &nbsp;|&nbsp; Nov 2022 – Sep 2023
@@ -129,7 +129,7 @@ Currently deepening my work in distributed training, LLM inference optimization,
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3&width=100%25" width="100%"/>
 
-## 🚀 Featured Research & Projects
+## Featured Research & Projects
 
 <table>
 <tr>
@@ -143,7 +143,7 @@ Zero-shot multilingual voice cloning via speaker embedding disentanglement - **9
 </td>
 <td width="50%" valign="top">
 
-### 🎭 EMOD
+### EMOD
 Zero-shot emotion transfer for expressive TTS via disentangled embeddings - controllable prosody without per-emotion fine-tuning.
 
 `StyleTTS2` `PyTorch`
@@ -153,7 +153,7 @@ Zero-shot emotion transfer for expressive TTS via disentangled embeddings - cont
 <tr>
 <td width="50%" valign="top">
 
-### 📚 Enterprise RAG Platform
+### Enterprise RAG Platform
 Hybrid dense + graph retrieval with role-based access and audit logging, serving 1M+ documents at **+40%** relevance over baseline RAG.
 
 `LangChain` `Weaviate` `Neo4j` `GPT-4o`
@@ -161,7 +161,7 @@ Hybrid dense + graph retrieval with role-based access and audit logging, serving
 </td>
 <td width="50%" valign="top">
 
-### 🤖 Conversational AI Agent
+### Conversational AI Agent
 Full-duplex voice agent (ASR → LLaMA-3 → Neural TTS) over WebSockets at **sub-500ms** latency.
 
 `LLaMA-3` `FastAPI` `LangGraph`
