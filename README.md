@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=120&section=header&text=Vijayakumar%20S&fontSize=42&fontColor=ffffff&fontAlignY=55&desc=AI%2FML%20Engineer%20%E2%80%94%20LLMs%20%C2%B7%20Speech%20AI%20%C2%B7%20Agentic%20Systems%20%C2%B7%20RAG&descAlignY=80&descSize=16&descColor=E0E7FF" width="100%"/>
 
-<br/>
+<br/> 
 
 [![Email](https://img.shields.io/badge/Email-vijay.aieng%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vijay.aieng@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vijay--aieng-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vijay-aieng)
