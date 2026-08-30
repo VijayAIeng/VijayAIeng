@@ -15,7 +15,7 @@
 
 ## 🧭 About
 
-AI/ML Engineer with **3.5+ years** of production experience building large language model, speech AI, and agentic RAG systems used in real deployments — not notebooks. I've shipped sub-500ms voice pipelines, enterprise retrieval platforms handling **1M+ documents**, and multi-agent systems that cut manual workflow time by **60%**. Core developer on two research-backed speech AI systems presented at an international speech synthesis challenge.
+AI/ML Engineer with **3.5+ years** of production experience building large language model, speech AI, and agentic RAG systems used in real deployments - not notebooks. I've shipped sub-500ms voice pipelines, enterprise retrieval platforms handling **1M+ documents**, and multi-agent systems that cut manual workflow time by **60%**. Core developer on two research-backed speech AI systems presented at an international speech synthesis challenge.
 
 Currently deepening my work in distributed training, LLM inference optimization, and production agent orchestration.
 
@@ -30,19 +30,19 @@ Currently deepening my work in distributed training, LLM inference optimization,
 ### AI / ML Engineer
 **Tapaya Technologies LLP**, Kerala, India *(Remote)* &nbsp;|&nbsp; Jul 2024 – Present
 
-- 🎙️ Architected a real-time conversational AI pipeline (Whisper + Llama 3 + XTTS-v2) with WebSocket streaming on Kubernetes — **sub-500ms latency**, 30% lower infra cost via GPU batching and quantization
-- 🔍 Built a hybrid RAG platform (BGE-M3 + Weaviate + Neo4j) processing **1M+ enterprise documents** — **+40% retrieval precision**
-- 🔊 Shipped a multilingual TTS engine across 12 languages (**sub-200ms** first-token latency) and a Vision RAG system indexing **2.1M+ vectors** — **+25% user satisfaction**
-- 🤖 Built multi-agent LLM pipelines (LangGraph + CrewAI) with tool calling and long-term memory — **60% less manual workflow time**
-- 🧬 Core developer of **Shabdh**, a multilingual zero-shot voice cloning system — presented at LIMMITS'24 and LIMMITS'25
+- 🎙️ Architected a real-time conversational AI pipeline (Whisper + Llama 3 + XTTS-v2) with WebSocket streaming on Kubernetes - **sub-500ms latency**, 30% lower infra cost via GPU batching and quantization
+- 🔍 Built a hybrid RAG platform (BGE-M3 + Weaviate + Neo4j) processing **1M+ enterprise documents** - **+40% retrieval precision**
+- 🔊 Shipped a multilingual TTS engine across 12 languages (**sub-200ms** first-token latency) and a Vision RAG system indexing **2.1M+ vectors** - **+25% user satisfaction**
+- 🤖 Built multi-agent LLM pipelines (LangGraph + CrewAI) with tool calling and long-term memory - **60% less manual workflow time**
+- 🧬 Core developer of **Shabdh**, a multilingual zero-shot voice cloning system - presented at LIMMITS'24 and LIMMITS'25
 
 ### Machine Learning Engineer, Intern
 **Tapaya Technologies LLP** &nbsp;|&nbsp; Oct 2023 – Jun 2024
-- Fine-tuned ASR/TTS models on 50+ hours of multilingual data (LoRA/PEFT) — **−18% WER**; built CI/CD + MLflow monitoring
+- Fine-tuned ASR/TTS models on 50+ hours of multilingual data (LoRA/PEFT) - **−18% WER**; built CI/CD + MLflow monitoring
 
 ### Data Scientist, Intern
 **Simplilearn**, India *(Hybrid)* &nbsp;|&nbsp; Nov 2022 – Sep 2023
-- Built and evaluated 10+ classification, regression, and NLP models — **+15% decision accuracy** for stakeholders
+- Built and evaluated 10+ classification, regression, and NLP models - **+15% decision accuracy** for stakeholders
 
 <br/>
 
@@ -136,7 +136,7 @@ Currently deepening my work in distributed training, LLM inference optimization,
 <td width="50%" valign="top">
 
 ### 🎙️ Shabdh
-Zero-shot multilingual voice cloning via speaker embedding disentanglement — **97.3%** speaker verification accuracy across 12+ languages. Submitted to LIMMITS'25.
+Zero-shot multilingual voice cloning via speaker embedding disentanglement - **97.3%** speaker verification accuracy across 12+ languages. Submitted to LIMMITS'25.
 
 `PyTorch` `XTTS-v2` `Whisper`
 
@@ -144,7 +144,7 @@ Zero-shot multilingual voice cloning via speaker embedding disentanglement — *
 <td width="50%" valign="top">
 
 ### 🎭 EMOD
-Zero-shot emotion transfer for expressive TTS via disentangled embeddings — controllable prosody without per-emotion fine-tuning.
+Zero-shot emotion transfer for expressive TTS via disentangled embeddings - controllable prosody without per-emotion fine-tuning.
 
 `StyleTTS2` `PyTorch`
 
@@ -180,15 +180,15 @@ Full-duplex voice agent (ASR → LLaMA-3 → Neural TTS) over WebSockets at **su
 <summary><b>🧠 LLMs & Agents</b></summary>
 <br/>
 
-- [llms-from-scratch-to-production](https://github.com/VijayAIeng/llms-from-scratch-to-production) — pretraining to fine-tuning, evaluation, inference, deployment
-- [transformers-from-scratch](https://github.com/VijayAIeng/transformers-from-scratch) — attention, positional encoding, encoder-decoder
-- [agents-from-scratch-to-production](https://github.com/VijayAIeng/agents-from-scratch-to-production) — tool use, planning, memory, MCP, multi-agent systems
-- [production-llm-applications](https://github.com/VijayAIeng/production-llm-applications) — structured outputs, tool calling, RAG, routing, caching
-- [llm-finetuning-from-scratch-to-production](https://github.com/VijayAIeng/llm-finetuning-from-scratch-to-production) — SFT, LoRA, QLoRA, PEFT, DPO
-- [llm-inference-from-scratch-to-production](https://github.com/VijayAIeng/llm-inference-from-scratch-to-production) — KV cache, batching, quantization, speculative decoding
-- [llmops-from-development-to-production](https://github.com/VijayAIeng/llmops-from-development-to-production) — prompt eval, tracing, RAG/agent monitoring
-- [complete-production-level-llm-data-processing-guide](https://github.com/VijayAIeng/complete-production-level-llm-data-processing-guide) — cleaning, dedup, tokenization
-- [moe-from-scratch](https://github.com/VijayAIeng/moe-from-scratch) — expert routing, sparse activation, distributed MoE
+- [llms-from-scratch-to-production](https://github.com/VijayAIeng/llms-from-scratch-to-production) - pretraining to fine-tuning, evaluation, inference, deployment
+- [transformers-from-scratch](https://github.com/VijayAIeng/transformers-from-scratch) - attention, positional encoding, encoder-decoder
+- [agents-from-scratch-to-production](https://github.com/VijayAIeng/agents-from-scratch-to-production) - tool use, planning, memory, MCP, multi-agent systems
+- [production-llm-applications](https://github.com/VijayAIeng/production-llm-applications) - structured outputs, tool calling, RAG, routing, caching
+- [llm-finetuning-from-scratch-to-production](https://github.com/VijayAIeng/llm-finetuning-from-scratch-to-production) - SFT, LoRA, QLoRA, PEFT, DPO
+- [llm-inference-from-scratch-to-production](https://github.com/VijayAIeng/llm-inference-from-scratch-to-production) - KV cache, batching, quantization, speculative decoding
+- [llmops-from-development-to-production](https://github.com/VijayAIeng/llmops-from-development-to-production) - prompt eval, tracing, RAG/agent monitoring
+- [complete-production-level-llm-data-processing-guide](https://github.com/VijayAIeng/complete-production-level-llm-data-processing-guide) - cleaning, dedup, tokenization
+- [moe-from-scratch](https://github.com/VijayAIeng/moe-from-scratch) - expert routing, sparse activation, distributed MoE
 
 </details>
 
@@ -196,10 +196,10 @@ Full-duplex voice agent (ASR → LLaMA-3 → Neural TTS) over WebSockets at **su
 <summary><b>🔍 RAG, Retrieval & NLP</b></summary>
 <br/>
 
-- [Complete-rag-from-scratch-to-production](https://github.com/VijayAIeng/Complete-rag-from-scratch-to-production) — chunking, embeddings, hybrid search, reranking
-- [Embeddings-Vector-Search-and-Retrieval](https://github.com/VijayAIeng/Embeddings-Vector-Search-and-Retrieval) — vector storage, similarity search
-- [natural-language-processing-from-scratch-to-production](https://github.com/VijayAIeng/natural-language-processing-from-scratch-to-production) — classical NLP through transformer/LLM systems
-- [databases-for-ai-engineering](https://github.com/VijayAIeng/databases-for-ai-engineering) — SQL/NoSQL, indexing, vector DBs
+- [Complete-rag-from-scratch-to-production](https://github.com/VijayAIeng/Complete-rag-from-scratch-to-production) - chunking, embeddings, hybrid search, reranking
+- [Embeddings-Vector-Search-and-Retrieval](https://github.com/VijayAIeng/Embeddings-Vector-Search-and-Retrieval) - vector storage, similarity search
+- [natural-language-processing-from-scratch-to-production](https://github.com/VijayAIeng/natural-language-processing-from-scratch-to-production) - classical NLP through transformer/LLM systems
+- [databases-for-ai-engineering](https://github.com/VijayAIeng/databases-for-ai-engineering) - SQL/NoSQL, indexing, vector DBs
 
 </details>
 
@@ -207,8 +207,8 @@ Full-duplex voice agent (ASR → LLaMA-3 → Neural TTS) over WebSockets at **su
 <summary><b>👁️ Multimodal & Vision</b></summary>
 <br/>
 
-- [multimodal-ai-from-fundamentals-to-production](https://github.com/VijayAIeng/multimodal-ai-from-fundamentals-to-production) — text, image, audio, video, VLMs
-- [computer-vision-from-fundamentals-to-production](https://github.com/VijayAIeng/computer-vision-from-fundamentals-to-production) — CNNs, detection, segmentation, ViTs
+- [multimodal-ai-from-fundamentals-to-production](https://github.com/VijayAIeng/multimodal-ai-from-fundamentals-to-production) - text, image, audio, video, VLMs
+- [computer-vision-from-fundamentals-to-production](https://github.com/VijayAIeng/computer-vision-from-fundamentals-to-production) - CNNs, detection, segmentation, ViTs
 
 </details>
 
@@ -216,16 +216,16 @@ Full-duplex voice agent (ASR → LLaMA-3 → Neural TTS) over WebSockets at **su
 <summary><b>⚙️ Infrastructure & MLOps</b></summary>
 <br/>
 
-- [kubernetes-for-ai-ml](https://github.com/VijayAIeng/kubernetes-for-ai-ml) — GPU scheduling, autoscaling, model serving
-- [cloud-ai-engineering](https://github.com/VijayAIeng/cloud-ai-engineering) — compute, IAM, cost optimization
-- [production-ai-backend-with-fastapi](https://github.com/VijayAIeng/production-ai-backend-with-fastapi) — async processing, auth, streaming
-- [distributed-ai-training-from-scratch](https://github.com/VijayAIeng/distributed-ai-training-from-scratch) — DDP, FSDP, tensor/pipeline parallelism
-- [mlops-from-training-to-production](https://github.com/VijayAIeng/mlops-from-training-to-production) — tracking, versioning, CI/CD, model registry
-- [ai-observability-and-reliability](https://github.com/VijayAIeng/ai-observability-and-reliability) — logging, tracing, drift detection
-- [ai-safety-security-and-guardrails](https://github.com/VijayAIeng/ai-safety-security-and-guardrails) — prompt injection, jailbreaks, RAG/agent security
-- [data-engineering-for-ai](https://github.com/VijayAIeng/data-engineering-for-ai) — ETL/ELT, Spark, Kafka, data lakes
-- [production-python-engineering](https://github.com/VijayAIeng/production-python-engineering) — concurrency, async, testing, packaging
-- [ai-system-design](https://github.com/VijayAIeng/ai-system-design) — end-to-end architecture for LLM/RAG/agent systems
+- [kubernetes-for-ai-ml](https://github.com/VijayAIeng/kubernetes-for-ai-ml) - GPU scheduling, autoscaling, model serving
+- [cloud-ai-engineering](https://github.com/VijayAIeng/cloud-ai-engineering) - compute, IAM, cost optimization
+- [production-ai-backend-with-fastapi](https://github.com/VijayAIeng/production-ai-backend-with-fastapi) - async processing, auth, streaming
+- [distributed-ai-training-from-scratch](https://github.com/VijayAIeng/distributed-ai-training-from-scratch) - DDP, FSDP, tensor/pipeline parallelism
+- [mlops-from-training-to-production](https://github.com/VijayAIeng/mlops-from-training-to-production) - tracking, versioning, CI/CD, model registry
+- [ai-observability-and-reliability](https://github.com/VijayAIeng/ai-observability-and-reliability) - logging, tracing, drift detection
+- [ai-safety-security-and-guardrails](https://github.com/VijayAIeng/ai-safety-security-and-guardrails) - prompt injection, jailbreaks, RAG/agent security
+- [data-engineering-for-ai](https://github.com/VijayAIeng/data-engineering-for-ai) - ETL/ELT, Spark, Kafka, data lakes
+- [production-python-engineering](https://github.com/VijayAIeng/production-python-engineering) - concurrency, async, testing, packaging
+- [ai-system-design](https://github.com/VijayAIeng/ai-system-design) - end-to-end architecture for LLM/RAG/agent systems
 
 </details>
 
@@ -271,7 +271,7 @@ Full-duplex voice agent (ASR → LLaMA-3 → Neural TTS) over WebSockets at **su
 
 ## 🎓 Education & Certifications
 
-**B.E. Computer Science and Engineering** — Sasurie Academy of Engineering, Coimbatore — 2016–2020
+**B.E. Computer Science and Engineering** - Sasurie Academy of Engineering, Coimbatore - 2016–2020
 
 <p>
 <img src="https://img.shields.io/badge/DeepLearning.AI-LLM_Specialization-0A66C2?style=flat-square"/>
