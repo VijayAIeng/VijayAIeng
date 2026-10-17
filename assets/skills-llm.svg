@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="138" viewBox="0 0 900 138" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" role="img"><title>LLMs and GenAI: Transformers, LLM application development, Prompt design, Structured output, Tool calling, LoRA, QLoRA, PEFT, vLLM, Ollama</title><style>
+.card{fill:#F8FAFC;stroke:#E2E8F0;stroke-width:1.2}
+.t1{fill:#0F172A}.t2{fill:#475569}
+.pf{fill:#7C3AED;fill-opacity:.12;stroke:#7C3AED;stroke-opacity:.5;stroke-width:1}
+.pt{fill:#6D28D9}.num{fill:#6D28D9}
+@media (prefers-color-scheme: dark){
+.card{fill:#161B22;stroke:#30363D}
+.t1{fill:#E6EDF3}.t2{fill:#9DA7B3}
+.pt{fill:#C4B5FD}.num{fill:#C4B5FD}
+.pf{fill-opacity:.16}
+}
+</style><rect class="card" x="0.6" y="0.6" width="898.8" height="136.8" rx="14"/>
+<rect x="0.6" y="0.6" width="9" height="136.8" rx="4.5" fill="#7C3AED"/>
+<circle cx="40" cy="30" r="6" fill="#7C3AED"/>
+<text class="t1" x="54" y="35.5" font-size="16" font-weight="700">LLMs and GenAI</text><rect class="pf" x="30.0" y="52" width="116.0" height="28" rx="14.0"/><text class="pt" x="88.0" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">Transformers</text><rect class="pf" x="154.0" y="52" width="228.5" height="28" rx="14.0"/><text class="pt" x="268.2" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">LLM application development</text><rect class="pf" x="390.5" y="52" width="123.5" height="28" rx="14.0"/><text class="pt" x="452.2" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">Prompt design</text><rect class="pf" x="522.0" y="52" width="153.5" height="28" rx="14.0"/><text class="pt" x="598.8" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">Structured output</text><rect class="pf" x="683.5" y="52" width="116.0" height="28" rx="14.0"/><text class="pt" x="741.5" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">Tool calling</text><rect class="pf" x="807.5" y="52" width="56.0" height="28" rx="14.0"/><text class="pt" x="835.5" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">LoRA</text><rect class="pf" x="30.0" y="88" width="63.5" height="28" rx="14.0"/><text class="pt" x="61.8" y="106.5" font-size="12.5" font-weight="600" text-anchor="middle">QLoRA</text><rect class="pf" x="101.5" y="88" width="56.0" height="28" rx="14.0"/><text class="pt" x="129.5" y="106.5" font-size="12.5" font-weight="600" text-anchor="middle">PEFT</text><rect class="pf" x="165.5" y="88" width="56.0" height="28" rx="14.0"/><text class="pt" x="193.5" y="106.5" font-size="12.5" font-weight="600" text-anchor="middle">vLLM</text><rect class="pf" x="229.5" y="88" width="71.0" height="28" rx="14.0"/><text class="pt" x="265.0" y="106.5" font-size="12.5" font-weight="600" text-anchor="middle">Ollama</text></svg>

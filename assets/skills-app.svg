@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="102" viewBox="0 0 900 102" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" role="img"><title>Application Development: TypeScript, React, Next.js</title><style>
+.card{fill:#F8FAFC;stroke:#E2E8F0;stroke-width:1.2}
+.t1{fill:#0F172A}.t2{fill:#475569}
+.pf{fill:#D97706;fill-opacity:.12;stroke:#D97706;stroke-opacity:.5;stroke-width:1}
+.pt{fill:#B45309}.num{fill:#B45309}
+@media (prefers-color-scheme: dark){
+.card{fill:#161B22;stroke:#30363D}
+.t1{fill:#E6EDF3}.t2{fill:#9DA7B3}
+.pt{fill:#FCD34D}.num{fill:#FCD34D}
+.pf{fill-opacity:.16}
+}
+</style><rect class="card" x="0.6" y="0.6" width="898.8" height="100.8" rx="14"/>
+<rect x="0.6" y="0.6" width="9" height="100.8" rx="4.5" fill="#D97706"/>
+<circle cx="40" cy="30" r="6" fill="#D97706"/>
+<text class="t1" x="54" y="35.5" font-size="16" font-weight="700">Application Development</text><rect class="pf" x="30.0" y="52" width="101.0" height="28" rx="14.0"/><text class="pt" x="80.5" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">TypeScript</text><rect class="pf" x="139.0" y="52" width="63.5" height="28" rx="14.0"/><text class="pt" x="170.8" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">React</text><rect class="pf" x="210.5" y="52" width="78.5" height="28" rx="14.0"/><text class="pt" x="249.8" y="70.5" font-size="12.5" font-weight="600" text-anchor="middle">Next.js</text></svg>

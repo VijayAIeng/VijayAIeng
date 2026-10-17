@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="52" viewBox="0 0 900 52" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" role="img"><title>Machine Learning Foundations</title><defs><linearGradient id="rp" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#16A34A"/><stop offset="100%" stop-color="#0D9488"/></linearGradient></defs>
+<rect width="900" height="52" rx="12" fill="url(#rp)"/>
+<circle cx="870" cy="-6" r="56" fill="#FFFFFF" fill-opacity=".10"/>
+<text x="22" y="32" font-size="17" font-weight="700" fill="#FFFFFF">Machine Learning Foundations</text>
+<rect x="741.5" y="12" width="140.5" height="28" rx="14" fill="#FFFFFF" fill-opacity=".22"/>
+<text x="811.8" y="30.5" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">12 repositories</text></svg>
