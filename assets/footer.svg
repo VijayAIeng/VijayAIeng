@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="84" viewBox="0 0 900 84" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" role="img"><title>AI engineering, from model experiments to deployed applications</title><defs><linearGradient id="f" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#111827"/><stop offset="45%" stop-color="#3730A3"/><stop offset="100%" stop-color="#0891B2"/></linearGradient></defs>
-<rect width="900" height="84" rx="16" fill="url(#f)"/>
-<circle cx="80" cy="90" r="60" fill="#FFFFFF" fill-opacity=".08"/>
-<circle cx="830" cy="-10" r="70" fill="#FFFFFF" fill-opacity=".10"/>
-<text x="450.0" y="49" font-size="17" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">AI engineering, from model experiments to deployed applications.</text></svg>
