@@ -142,7 +142,7 @@ I read research to decide what is worth building, not to collect papers. Every p
 
 ```text
 Title:
-One-sentence idea:
+One sentence idea:
 What changed compared with the baseline:
 Evidence I trust, and evidence I do not:
 Tiny experiment to run:
