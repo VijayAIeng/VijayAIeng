@@ -9,8 +9,6 @@
 <a href="https://vijayai.site"><img src="https://img.shields.io/badge/PORTFOLIO-Visit-0891B2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://github.com/VijayAIeng"><img src="https://img.shields.io/badge/GITHUB-Projects-18181B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
-<br/><br/>
-
 </div>
 
 ---
