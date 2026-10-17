@@ -19,7 +19,7 @@
 
 I am an AI/ML Engineer working across language models, speech technology, retrieval systems, and AI application infrastructure. My work includes connecting models to real products, improving inference and retrieval workflows, and building services that can be evaluated, deployed, and maintained.
 
-My current focus is agentic systems: software where a model reads context, calls tools, observes results, and keeps going until the job is done. At work I contribute to an internal AI product built on these ideas (the details are confidential), and I care most about the unglamorous parts: clean protocols, safe tools, and recovery when things fail.
+My current focus is agentic systems: software where a model reads context, calls tools, observes results, and keeps going until the job is done. At work I build Brahm Studio, an AI website builder with a design canvas and tool-using agents (the implementation is confidential), and I care most about the unglamorous parts: clean protocols, safe tools, and recovery when things fail.
 
 I use Python and PyTorch for model development, TypeScript and Next.js for product surfaces, and tools such as Hugging Face Transformers, LangChain, LangGraph, vector databases, FastAPI, Docker, and Kubernetes to build end-to-end systems. I work with AI coding assistants every day and stay responsible for design, review, and verification.
 
@@ -35,13 +35,24 @@ I am most interested in roles where model understanding and software engineering
 
 <br/>
 
-<img src="./assets/section-current.svg" alt="Current Work (Confidential)" width="100%"/>
+<img src="./assets/section-current.svg" alt="Featured Work: Brahm Studio" width="100%"/>
 
 <br/>
 
-In my current role I also work on an internal AI product that turns natural-language requests into editable web pages. The details are confidential, so I only share the overall picture.
+<img src="./assets/studio-hero.svg" alt="Brahm Studio, an AI website builder with a design canvas" width="100%"/>
 
-<img src="./assets/current-work.svg" alt="Current work highlights: AI-powered builder, agentic tool use, retrieval and streaming, security by design" width="100%"/>
+<br/>
+
+Brahm Studio is an AI website builder I work on in my current role. It combines a chat assistant, a visual design canvas, and tool-using agents, so a request in plain language becomes a page you can keep editing by hand. The implementation is confidential, so this section covers overall highlights only.
+
+<img src="./assets/studio-highlights.svg" alt="Brahm Studio highlights: chat to page, visual editing, design and code together, agent-powered edits, grounded and live, safe by design" width="100%"/>
+
+**What I contribute**
+
+- End-to-end engineering across the product interface, the agent layer, and the backend integration.
+- Designing how an agent receives context, uses tools, and recovers when something fails.
+- Making the experience feel fast, with answers and results streaming live.
+- Treating safety as a feature: clear permissions, firm limits, and the ability to undo automated changes.
 
 <br/>
 
@@ -142,7 +153,7 @@ I read research to decide what is worth building, not to collect papers. Every p
 
 ```text
 Title:
-One sentence idea:
+One-sentence idea:
 What changed compared with the baseline:
 Evidence I trust, and evidence I do not:
 Tiny experiment to run:
