@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Vijayakumar S, AI/ML Engineer | Generative AI | Speech AI | Production Systems" width="100%"/>
+<img src="./assets/banner.svg" alt="Vijayakumar S, AI/ML Engineer | Generative AI | Agents and MCP | Production Systems" width="100%"/>
 
 <p>
-<a href="mailto:vijay.aieng@gmail.com"><img src="./assets/btn-email.svg" alt="Email" width="170"/></a>&nbsp;
-<a href="https://www.linkedin.com/in/vijay-aieng/"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" width="170"/></a>&nbsp;
-<a href="https://vijayai.site"><img src="./assets/btn-portfolio.svg" alt="Portfolio" width="170"/></a>&nbsp;
-<a href="https://github.com/VijayAIeng"><img src="./assets/btn-github.svg" alt="GitHub" width="170"/></a>
+<a href="mailto:vijay.aieng@gmail.com"><img src="./assets/btn-email.svg" alt="Email: vijay.aieng@gmail.com" width="170"/></a>&nbsp;
+<a href="https://www.linkedin.com/in/vijay-aieng/"><img src="./assets/btn-linkedin.svg" alt="LinkedIn: vijay-aieng" width="170"/></a>&nbsp;
+<a href="https://vijayai.site"><img src="./assets/btn-portfolio.svg" alt="Portfolio: vijayai.site" width="170"/></a>&nbsp;
+<a href="https://github.com/VijayAIeng"><img src="./assets/btn-github.svg" alt="GitHub: VijayAIeng" width="170"/></a>
 </p>
 
 </div>
@@ -19,7 +19,9 @@
 
 I am an AI/ML Engineer working across language models, speech technology, retrieval systems, and AI application infrastructure. My work includes connecting models to real products, improving inference and retrieval workflows, and building services that can be evaluated, deployed, and maintained.
 
-I use Python and PyTorch for model development, with tools such as Hugging Face Transformers, LangChain, LangGraph, vector databases, FastAPI, Docker, and Kubernetes to build end-to-end systems.
+My current focus is agentic systems: software where a model reads context, calls tools, observes results, and keeps going until the job is done. I recently built **Brahm Studio**, an AI website builder with a design canvas, a sandboxed MCP file server, and a streaming bridge to a FastAPI RAG backend. It is the clearest example of how I think: a clean protocol first, safe tools second, and a product people can actually use on top.
+
+I use Python and PyTorch for model development, TypeScript and Next.js for product surfaces, and tools such as Hugging Face Transformers, LangChain, LangGraph, vector databases, FastAPI, Docker, and Kubernetes to build end-to-end systems. I work with AI coding assistants every day and stay responsible for design, review, and verification.
 
 I am most interested in roles where model understanding and software engineering meet: building useful AI features, investigating performance bottlenecks, and making model-backed applications dependable in production.
 
@@ -33,11 +35,217 @@ I am most interested in roles where model understanding and software engineering
 
 <br/>
 
+<img src="./assets/section-studio.svg" alt="Featured Project: Brahm Studio" width="100%"/>
+
+<br/>
+
+<img src="./assets/studio-hero.svg" alt="Brahm Studio, an AI website builder with a design canvas" width="100%"/>
+
+<br/>
+
+<img src="./assets/studio-stats.svg" alt="Brahm Studio: about 9,000 lines of TypeScript and CSS, 73 files, no extra npm dependencies, 8 MCP tools, at most 6 agent steps per turn" width="100%"/>
+
+<br/>
+
+Brahm Studio lives inside a Next.js app at `/studio`. You describe a page in chat, an agent writes the code, and the canvas turns that code into editable layers you can move, resize, and restyle like a design tool. Every change can be written back to real Next.js files.
+
+**What makes it interesting to build**
+
+- **Code to canvas:** page files are rendered off-screen, measured in a real browser, and converted into layers, so the canvas shows true layout instead of a guess.
+- **Canvas to code:** the Code tab and the Write all to files action regenerate TSX from the canvas, using inline styles, `next/link` for internal routes, and optional data fetching configured in the Data tab.
+- **Three ways for the AI to edit:** code, design JSON, and targeted operations (shown below).
+- **No extra dependencies:** the whole studio runs on `react`, `react-dom`, and `next`. State, undo history, persistence, color picker, rulers, shortcuts, and layer interactions (move, resize, rotate, marquee, draw) are hand-built.
+- **Local-first storage:** the project autosaves to IndexedDB every 700 ms and flushes when the tab hides or closes. Chat history lives in IndexedDB, settings in localStorage, and per-tab UI state (selection, zoom, open panels) in sessionStorage.
+- **A real editor surface:** layers, pages, library, assets, and files panels on the left, design, code, and data tabs on the right, and an AI chat dock with history and attachments.
+
+### Architecture
+
+<img src="./assets/studio-arch.svg" alt="Brahm Studio architecture: browser canvas, chat proxy route to the Brahm FastAPI backend, MCP route to a sandboxed workspace" width="100%"/>
+
+### Three ways the AI changes the canvas
+
+<img src="./assets/studio-modes.svg" alt="Three ways the AI changes the canvas: code, design JSON and targeted operations" width="100%"/>
+
+### How the Brahm backend connects
+
+The chat route is an adapter between Studio and my Brahm FastAPI backend, so the browser never talks to FastAPI directly and the backend URL stays private.
+
+- **Intent routing:** each message is classified as plain chat or code generation. A `/chat` or `/code` prefix forces the choice.
+- **Context folding:** the active page outline, selected layers, attached pages, and attached files are folded into the prompt with hard size caps, so large canvases never blow up the request.
+- **Strict output contract:** the code prompt tells the model exactly how to answer, which keeps the importer reliable. A trimmed version:
+
+```text
+OUTPUT RULES (strict)
+1. Return every page as a COMPLETE file: <file path="app/<route>/page.tsx"> ... </file>
+2. Use STATIC JSX only: no hooks, no .map(), no imports except react.
+3. Style ONLY with inline style objects, designed for the page width.
+4. When editing an existing page, keep its path and return the full updated file.
+```
+
+- **Streaming filter:** a small state machine hides the file blocks from the visible chat text while collecting them as files, even when a tag is split across network chunks.
+- **Resilience:** a heartbeat every 12 seconds keeps proxies from closing idle streams, abort signals are forwarded, streams can run for up to 300 seconds, and if a saved conversation no longer exists on the backend (404) the route quietly starts a fresh thread.
+- **RAG on by default:** requests ask the backend for retrieval with the top 5 results, and the backend memory service keeps the history, so only the latest turn is sent.
+
+### Security by design
+
+<img src="./assets/studio-security.svg" alt="Security design of the Studio MCP server and API routes" width="100%"/>
+
+<br/>
+
+<img src="./assets/section-agents.svg" alt="Agents and MCP" width="100%"/>
+
+<br/>
+
+In Studio the browser runs the agent loop and a small MCP server provides the tools. It is the same pattern chat assistants use when they connect to tools through MCP: the model gets hands, and the host decides what those hands may touch.
+
+<img src="./assets/agent-loop.svg" alt="Agent loop: build context, stream the model, run tools through MCP, observe results, apply changes" width="100%"/>
+
+### How tool use works, step by step
+
+1. The client asks the MCP server for its tools (`tools/list`) and sends each tool's JSON Schema to the model.
+2. The model streams text, and when it needs something it emits a `tool_call` with arguments.
+3. The host runs the call through MCP (`tools/call`) inside the sandbox.
+4. The result comes back as a `tool` message and the model continues with new information.
+5. The loop ends when the model finishes or reaches the step limit, which is 6 in Studio.
+
+A real MCP call from Studio looks like this:
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 7,
+  "method": "tools/call",
+  "params": {
+    "name": "fs_patch",
+    "arguments": {
+      "path": "app/pricing/page.tsx",
+      "search": "Start free",
+      "replace": "Start your trial"
+    }
+  }
+}
+```
+
+And the stream the browser reads back is one small JSON event per line:
+
+```json
+{"type":"thinking","delta":"Looking at the pricing page..."}
+{"type":"tool_call","id":"t1","name":"fs_read","args":{"path":"app/pricing/page.tsx"}}
+{"type":"ops","ops":[{"op":"update","target":"Hero headline","patch":{"text":"New headline","fontSize":56}}]}
+{"type":"done"}
+```
+
+The client also understands OpenAI-style and Anthropic-style streams, so the backend can change without touching the interface.
+
+### What I know about agent systems
+
+| Concept | How I apply it |
+|---|---|
+| **Tool design** | Small, single-purpose tools with JSON Schema inputs, clear descriptions, and required fields, so models call them correctly. Errors come back as readable text the model can recover from. |
+| **Context building** | Summarize large state before it reaches the model: layer trees capped by node count, attached files capped by size, selections described instead of dumped. |
+| **Client tools and server tools** | Tools the host executes through MCP are separate from tools the backend ran itself, which are reported as information only. |
+| **Streaming** | Typed events for thinking, text, tool calls, tool results, files, pages, operations, titles, and errors. |
+| **Memory** | Server-side conversation memory in the backend, local chat history in the browser, and a fresh-thread fallback when state goes missing. |
+| **Guardrails** | Step limits, abort control, path sandboxing, token auth, deny lists, size limits, and a read-only switch. |
+| **Review and undo** | Proposed file changes pass through an apply and review pipeline, and canvas operations from the AI collapse into one undo step. |
+
+### Chat assistants with MCP
+
+In chat assistants that support connectors, MCP gives the model access to files, search, calendars, and design tools. I design those tools like a public API: narrow scope, safe defaults, permissions enforced on the server and never trusted to the prompt, and every dangerous action isolated behind an explicit tool.
+
+<br/>
+
+<img src="./assets/section-workflow.svg" alt="How I Work with AI in 2026" width="100%"/>
+
+<br/>
+
+I use AI coding assistants as fast collaborators and keep myself responsible for design and verification. The assistant makes the first draft cheap, and my time goes into the parts that decide quality: the contract, the review, and the failure paths.
+
+<img src="./assets/workflow-steps.svg" alt="Six-step AI-assisted engineering workflow: frame, generate, read, run, harden, document" width="100%"/>
+
+### Vibe coding, with engineering discipline
+
+I describe intent and constraints, let the assistant produce a draft quickly, and then switch to engineering mode: read, run, break, and fix. Vibe coding is how I move fast. Reviewing is how I stay trustworthy.
+
+**Rules I follow**
+
+- I never merge code I cannot explain.
+- The output contract is written down before generation starts, as in the strict prompt rules shown in the Studio section.
+- I ask the assistant to explain trade-offs, not only to write code.
+- I test failure paths first: bad input, missing files, dropped streams, and hostile paths.
+- Secrets stay out of prompts and out of generated code. Configuration lives in environment variables with a documented example file.
+- I prefer a small hand-written module over a new dependency when the module is simple enough to own.
+
+### Thinking inside a time box
+
+1. **Settle the contract first.** Types, event protocol, folder layout, and what each tool may touch.
+2. **Build the thinnest end-to-end slice.** A page generated, imported, edited, and saved back to a file.
+3. **Widen only after the slice works.** Panels, interactions, settings, and history come after the loop is proven.
+4. **Harden before polishing.** Auth, limits, and recovery come before visual refinement.
+5. **Write it down while it is fresh.** Studio ships with an install guide, an env example, and the streaming protocol documented in the README.
+
+That is how the Studio module and its Brahm backend bridge came together in a short burst in October 2026, with the module files dated October 12 and 13: the protocol was decided early, so the rest of the work could be generated, reviewed, and connected quickly.
+
+<br/>
+
+<img src="./assets/section-research.svg" alt="Research Reading Practice" width="100%"/>
+
+<br/>
+
+I read research to decide what is worth building, not to collect papers. Every paper gets the same routine, and anything that survives it becomes a small experiment in a repository.
+
+<img src="./assets/research-steps.svg" alt="Six-step research reading routine" width="100%"/>
+
+**My note template for any research page**
+
+```text
+Title:
+One-sentence idea:
+What changed compared with the baseline:
+Evidence I trust, and evidence I do not:
+Tiny experiment to run:
+Production cost (latency, memory, money):
+Decision: build, watch, or skip
+```
+
+**Where I practice what I read**
+
+| Topic | Repository |
+|---|---|
+| KV cache, batching, quantization, speculative decoding | [LLM Inference](https://github.com/VijayAIeng/llm-inference-from-scratch-to-production) |
+| Mixture of experts and expert routing | [Mixture of Experts from Scratch](https://github.com/VijayAIeng/moe-from-scratch) |
+| SFT, LoRA, QLoRA, PEFT, DPO | [LLM Fine-Tuning](https://github.com/VijayAIeng/llm-finetuning-from-scratch-to-production) |
+| DDP, FSDP, tensor and pipeline parallelism | [Distributed AI Training](https://github.com/VijayAIeng/distributed-ai-training-from-scratch) |
+| Hybrid search and reranking | [Complete RAG from Scratch to Production](https://github.com/VijayAIeng/Complete-rag-from-scratch-to-production) |
+| Prompt injection, jailbreaks, agent security | [AI Safety, Security and Guardrails](https://github.com/VijayAIeng/ai-safety-security-and-guardrails) |
+| Evaluation, tracing, monitoring | [LLMOps](https://github.com/VijayAIeng/llmops-from-development-to-production) |
+
+<br/>
+
+<img src="./assets/section-production.svg" alt="Production Engineering" width="100%"/>
+
+<br/>
+
+A demo works once. A production system works on a bad network, with hostile input, at a cost the business can afford. These are the six questions I ask before anything ships.
+
+<img src="./assets/production-cards.svg" alt="Production engineering checklist: latency, cost, evaluation, observability, security, reliability" width="100%"/>
+
+**My definition of done**
+
+- A request can be traced from the browser to the model and back.
+- A failure shows a readable error, never a blank screen.
+- Secrets live in environment variables, and the repository includes an example file.
+- Every tool an agent can call has limits on paths, size, and permissions.
+- There is an evaluation set, and I know the number before and after each change.
+- Long streams survive idle timeouts, dropped connections, and user cancellation.
+
+<br/>
+
 <img src="./assets/section-focus.svg" alt="Focus Areas" width="100%"/>
 
 <br/>
 
-<img src="./assets/focus.svg" alt="Focus areas: LLMs and GenAI, Speech and Audio AI, RAG and Retrieval, Agents and Tool Use, Deep Learning, Deployment and MLOps" width="100%"/>
+<img src="./assets/focus.svg" alt="Focus areas: LLMs and GenAI, Speech and Audio AI, RAG and Retrieval, Agents and MCP, Deep Learning, Deployment and MLOps" width="100%"/>
 
 <br/>
 
@@ -80,6 +288,10 @@ I am most interested in roles where model understanding and software engineering
 
 <table>
 <tr>
+<td width="50%" valign="top"><img src="./assets/project-studio.svg" alt="Brahm Studio. Technology: Next.js, React, TypeScript, MCP, FastAPI" width="100%"/></td>
+<td width="50%" valign="top"><img src="./assets/project-mcp.svg" alt="Studio MCP Server. Technology: MCP, JSON-RPC, Node.js, Security" width="100%"/></td>
+</tr>
+<tr>
 <td width="50%" valign="top"><img src="./assets/project-shabdh.svg" alt="Shabdh: Multilingual Voice Cloning. Technology: PyTorch, XTTS-v2, ASR, TTS" width="100%"/></td>
 <td width="50%" valign="top"><img src="./assets/project-emod.svg" alt="EMOD: Expressive Speech. Technology: PyTorch, StyleTTS2" width="100%"/></td>
 </tr>
@@ -101,7 +313,9 @@ I am most interested in roles where model understanding and software engineering
 
 <p><img src="./assets/skills-speech.svg" alt="Speech AI: ASR, TTS, Whisper, wav2vec 2.0, XTTS-v2, StyleTTS2, VITS, Bark, voice cloning" width="100%"/></p>
 
-<p><img src="./assets/skills-agents.svg" alt="Agents: LangGraph, LangChain, LlamaIndex, CrewAI, AutoGen, tool integration, multi-step workflows" width="100%"/></p>
+<p><img src="./assets/skills-agents.svg" alt="Agents and MCP: LangGraph, LangChain, LlamaIndex, CrewAI, AutoGen, MCP servers and clients, JSON-RPC 2.0, tool schemas, agent loops, streaming protocols (NDJSON, SSE), multi-step workflows" width="100%"/></p>
+
+<p><img src="./assets/skills-assisted.svg" alt="AI-Assisted Engineering: vibe coding, spec-first prompting, reviewing AI-written code, output contracts, chat assistants with tool use, research paper reading" width="100%"/></p>
 
 <p><img src="./assets/skills-ml.svg" alt="ML and DL: Python, NumPy, pandas, scikit-learn, PyTorch, TensorFlow, Hugging Face Transformers, OpenCV, CLIP, YOLO" width="100%"/></p>
 
@@ -111,7 +325,7 @@ I am most interested in roles where model understanding and software engineering
 
 <p><img src="./assets/skills-cloud.svg" alt="Cloud and Infra: Docker, Kubernetes, AWS, GCP, CI/CD, GPU workloads, deployment, monitoring" width="100%"/></p>
 
-<p><img src="./assets/skills-app.svg" alt="Application Development: TypeScript, React, Next.js" width="100%"/></p>
+<p><img src="./assets/skills-app.svg" alt="Application Development: TypeScript, React, Next.js, App Router, Next.js API routes, IndexedDB, editor state management" width="100%"/></p>
 
 <br/>
 
