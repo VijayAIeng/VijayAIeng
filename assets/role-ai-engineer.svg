@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="84" viewBox="0 0 900 84" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" role="img"><title>AI / ML Engineer, Tapaya Technologies LLP  |  Remote, India, Jul 2024 to Present</title><style>
+.card{fill:#F8FAFC;stroke:#E2E8F0;stroke-width:1.2}
+.t1{fill:#0F172A}.t2{fill:#475569}
+.ln{stroke:#94A3B8;fill:none;stroke-width:2}
+.pf{fill:#4F46E5;fill-opacity:.12;stroke:#4F46E5;stroke-opacity:.5;stroke-width:1}
+.pt{fill:#4338CA}
+@media (prefers-color-scheme: dark){
+.card{fill:#161B22;stroke:#30363D}
+.t1{fill:#E6EDF3}.t2{fill:#9DA7B3}
+.pt{fill:#A5B4FC}.pf{fill-opacity:.16}
+}
+</style><defs><linearGradient id="rg" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#4F46E5"/><stop offset="100%" stop-color="#0891B2"/></linearGradient></defs>
+<rect class="card" x="0.6" y="0.6" width="898.8" height="82.8" rx="14"/><rect x="0.6" y="0.6" width="10" height="82.8" rx="5" fill="url(#rg)"/>
+<text class="t1" x="34" y="38" font-size="21" font-weight="700">AI / ML Engineer</text><text class="t2" x="34" y="62" font-size="14" font-weight="600">Tapaya Technologies LLP  |  Remote, India</text>
+<rect x="717.2" y="26" width="160.8" height="32" rx="16" fill="url(#rg)"/>
+<text x="797.6" y="47" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Jul 2024 to Present</text></svg>
