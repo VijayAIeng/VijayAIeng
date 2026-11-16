@@ -189,20 +189,6 @@ These are my learning and build repos. Each one has code, notes and setup steps.
 
 <br/>
 
-| Repository | What it covers |
-|---|---|
-| [Production LLM Applications](https://github.com/VijayAIeng/production-llm-applications) | RAG, routing, caching, structured outputs, tool calling |
-| [LLM Data Processing Guide](https://github.com/VijayAIeng/complete-production-level-llm-data-processing-guide) | Cleaning, deduplication, tokenization, storage |
-| [Embeddings, Vector Search and Retrieval](https://github.com/VijayAIeng/Embeddings-Vector-Search-and-Retrieval) | Embedding models, vector indexes, similarity search |
-| [Multimodal AI](https://github.com/VijayAIeng/multimodal-ai-from-fundamentals-to-production) | Text, images, audio, video, vision-language models |
-| [Computer Vision](https://github.com/VijayAIeng/computer-vision-from-fundamentals-to-production) | CNNs, detection, segmentation, vision transformers |
-| [Kubernetes for AI/ML](https://github.com/VijayAIeng/kubernetes-for-ai-ml) | GPU scheduling, autoscaling, model serving |
-| [MLOps from Training to Production](https://github.com/VijayAIeng/mlops-from-training-to-production) | Tracking, versioning, CI/CD, model registry |
-| [AI Observability and Reliability](https://github.com/VijayAIeng/ai-observability-and-reliability) | Logs, traces, drift detection |
-| [Production Deep Learning with PyTorch](https://github.com/VijayAIeng/production-deep-learning-with-pytorch) | Training and deployment |
-| [Machine Learning from Fundamentals to Production](https://github.com/VijayAIeng/machine-learning-from-fundamentals-to-production) | Core ML workflows |
-| [Complete PyTorch Guide](https://github.com/VijayAIeng/complete-pytorch-guide) | Tensor operations and model training |
-| [Production Python Engineering](https://github.com/VijayAIeng/production-python-engineering) | Concurrency, async, testing, packaging |
 
 </details>
 
