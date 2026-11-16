@@ -19,11 +19,13 @@ Language models, speech, retrieval and agents, built to run in production.
 
 ## About
 
-I am an AI/ML Engineer. My work sits on the model side: fine-tuning, inference speed, retrieval quality and speech. I also build the services and agents around the models, so they keep working outside a notebook.
+I am an AI Engineer. I build models and LLMs and take them all the way to production. I work mostly on speech and language models, from the architecture and the data to training, fine-tuning and serving.
 
-I work at Tapaya Technologies LLP, where I build **Brahm Studio**, an AI website builder for React sites. I care most about the parts people skip: clean tool contracts, safe permissions, evaluation numbers, and recovery when something fails.
+On the speech side, I have worked on zero-shot voice cloning and voice conversion. I contributed DIS-vector embeddings for voice conversion and EMOD for emotion extraction, and I worked with Transformer and VAE based architectures. I have fine-tuned VITS, XTTS and Whisper, and I handle the TTS data preparation and training as well.
 
-I use AI coding assistants every day. They write the first draft, and I read it, run it and try to break it before I trust it. I do not merge code I cannot explain.
+On the language side, I have built Transformers and Mixture of Experts from scratch, and I work on fine-tuning and prompt engineering to get models ready for real products.
+
+I work at Tapaya Technologies LLP, where I build Brahm Studio, an AI website builder for React sites with a design canvas and tool-using agents. I care most about the parts people skip: clean tool contracts, safe permissions, evaluation numbers, and recovery when something fails.
 
 ---
 
