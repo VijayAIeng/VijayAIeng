@@ -66,20 +66,6 @@ Brahm Studio is an AI website builder for React. A chat assistant, a visual desi
 
 ---
 
-## How an Agent Works
-
-An agent is a loop: read context, reason, call a tool, read the result, repeat until the task is done. I use MCP to expose tools in a standard way, so the host decides exactly what each tool can touch.
-
-| Part | How I build it |
-|---|---|
-| **Tools** | Small and single-purpose, with JSON Schema inputs. Errors return as readable text so the model can recover. |
-| **Context** | Large state is summarized and size-capped before it reaches the model. |
-| **Streaming** | Typed events for text, tool calls, results and errors. |
-| **Guardrails** | Step limits, abort control, path sandboxing, authentication, read-only modes. |
-| **Review and undo** | Proposed changes pass a review step. AI edits are grouped and can be undone together. |
-
----
-
 ## Experience
 
 ### AI / ML Engineer
