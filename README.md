@@ -148,28 +148,6 @@ These are personal projects I am working on to go deeper into models. They are i
 | **Cloud and infra** | Docker, Kubernetes, AWS, GCP, CI/CD, GPU workloads, monitoring |
 | **Application** | TypeScript, React, Next.js |
 
----
-
-## Repositories
-
-Learning and build repos, each with code, notes and setup steps.
-
-| Repository | Covers |
-|---|---|
-| [LLMs from Scratch to Production](https://github.com/VijayAIeng/llms-from-scratch-to-production) | Pretraining, fine-tuning, evaluation, inference, deployment |
-| [Transformers from Scratch](https://github.com/VijayAIeng/transformers-from-scratch) | Attention, positional encoding, full architecture |
-| [LLM Fine-Tuning](https://github.com/VijayAIeng/llm-finetuning-from-scratch-to-production) | SFT, LoRA, QLoRA, PEFT, DPO |
-| [LLM Inference](https://github.com/VijayAIeng/llm-inference-from-scratch-to-production) | KV cache, batching, quantization, speculative decoding |
-| [Mixture of Experts from Scratch](https://github.com/VijayAIeng/moe-from-scratch) | Expert routing and sparse activation |
-| [Distributed AI Training](https://github.com/VijayAIeng/distributed-ai-training-from-scratch) | DDP, FSDP, tensor and pipeline parallelism |
-| [Agents from Scratch to Production](https://github.com/VijayAIeng/agents-from-scratch-to-production) | Planning, tools, memory, MCP, multi-agent workflows |
-| [Complete RAG from Scratch to Production](https://github.com/VijayAIeng/Complete-rag-from-scratch-to-production) | Chunking, embeddings, hybrid search, reranking |
-| [LLMOps](https://github.com/VijayAIeng/llmops-from-development-to-production) | Evaluation, tracing, monitoring |
-| [AI Safety, Security and Guardrails](https://github.com/VijayAIeng/ai-safety-security-and-guardrails) | Prompt injection, jailbreaks, agent security |
-| [Production AI Backend with FastAPI](https://github.com/VijayAIeng/production-ai-backend-with-fastapi) | Async APIs, authentication, streaming |
-| [AI System Design](https://github.com/VijayAIeng/ai-system-design) | Architecture for LLM, RAG and agent systems |
-
----
 
 ## Education
 
